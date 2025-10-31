@@ -1,0 +1,9 @@
+{
+    "Test": [
+        "+12V [V]",
+        "Gesamte GPU-Leistung [% von TDP] [%]"
+    ],
+    "test2": [
+        "1,0V VOUT Spannung [V].1"
+    ]
+}

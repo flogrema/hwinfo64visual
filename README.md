@@ -87,3 +87,8 @@ python main.py
 pip install pytest
 python -m pytest tests/ -v
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+

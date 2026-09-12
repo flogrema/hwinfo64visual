@@ -2,6 +2,25 @@
 
 Desktop application for visualizing HWiNFO64 hardware sensor logs.
 
+## About HWiNFO64
+
+[HWiNFO®](https://www.hwinfo.com/) is a professional hardware analysis and diagnostic software for Windows.
+
+### How to Create Compatible CSV Logs
+
+1. Download and install **[HWiNFO64](https://www.hwinfo.com/download/)**.
+2. Start HWiNFO64 and ensure **Sensors-only** is selected (or open the Sensors window).
+3. In the Sensors window, click the **Logging Start** icon (sheet icon at the bottom right) to specify a `.csv` target location.
+4. Run your benchmark, gaming session, or stress test.
+5. Click **Logging Stop** to finish and save the log file.
+6. Open the generated CSV in this application via **Open CSV File**.
+
+> [!TIP]
+> - **Polling Rate**: In HWiNFO64 *Configure Sensors* → *General*, you can adjust the polling frequency (e.g., 500ms or 1000ms for more granular telemetry).
+> - **Localization**: Both German and English sensor names are automatically parsed and categorized.
+> - Ensure Date and Time columns are kept intact (default HWiNFO behavior).
+
+
 ## Features
 
 - **CSV Import** — Load HWiNFO64 CSV log files with automatic timestamp parsing
